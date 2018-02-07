@@ -40,9 +40,8 @@ for (WINDOWSIZE in c(10000,20000,50000) ) {
     pdffile= sprintf('plots/Clus_density_%dkb_all.pdf',WINDOWSIZE/1000)
     Title = "Feature density"
     d$Chromosome <- df$Chr
-    d$Track.order = factor(df$Track,levels = c("Genes",
-                                                "PopA.INDEL.lungonly_curated_final",
-                                                "PopA.SNP.lungonly_curated_final"
+    d$Track.order = factor(df$Track,levels = c("Genes",                                                                        "PopA.SNP.lungonly_curated_final",
+                                               "PopA.INDEL.lungonly_curated_final"
                                                 ),
                             labels=c("Genes",
                                      "SNPs",
