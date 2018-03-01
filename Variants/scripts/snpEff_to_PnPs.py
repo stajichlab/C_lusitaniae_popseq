@@ -1,3 +1,4 @@
+#Run in same folder as snpEff output. Takes snpEff_genes.txt table and computes ratios of Pn/Ps
 import sys
 
 
