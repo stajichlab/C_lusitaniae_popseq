@@ -5,17 +5,19 @@
 #SBATCH --job-name=GATK.select_filter
 #SBATCH --output=GATK.select_filter.%A.log
 
+#Filters and selects for high quality variants, splitting them up into INDELONLY and SNPONLY files. Adjust filter parameters as needed
+
 module load gatk/3.6
 module unload java
 module load java/8
 OUTDIR=.
-G=A.bcftools
-BASE=/bigdata/stajichlab/shared/projects/Candida/Clus_reseq
-GENOME=$BASE/genome/candida_lusitaniae_ATCC42720_w_CBS_6936_MT.fasta
+G=A.bcftools #base name
+BASE=/bigdata/stajichlab/shared/projects/Candida/Clus_reseq #base directory
+GENOME=$BASE/genome/candida_lusitaniae_ATCC42720_w_CBS_6936_MT.fasta #reference genome path
 
-INFILE=C_lusitaniae.genotypes_${G}.vcf
-INSNP=$OUTDIR/C_lusitaniae.genotypes_${G}.SNPS.vcf
-ININDEL=$OUTDIR/C_lusitaniae.genotypes_${G}.INDEL.vcf
+INFILE=C_lusitaniae.genotypes_${G}.vcf #Product of step 4
+INSNP=$OUTDIR/C_lusitaniae.genotypes_${G}.SNPS.vcf #SNPs vcf (unfiltered)
+ININDEL=$OUTDIR/C_lusitaniae.genotypes_${G}.INDEL.vcf #INDELs vcf (unfiltered)
 FILTEREDSNP=$OUTDIR/C_lusitaniae.genotypes_${G}.filtered.SNPONLY.vcf
 FILTEREDINDEL=$OUTDIR/C_lusitaniae.genotypes_${G}.filtered.INDELONLY.vcf
 
