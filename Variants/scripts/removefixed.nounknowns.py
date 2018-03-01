@@ -1,3 +1,4 @@
+#removes fixed (ie non segregating) variants. Compared to the other script, this one does not include sites that are an unknown call
 import sys
 import vcf.parser
 
