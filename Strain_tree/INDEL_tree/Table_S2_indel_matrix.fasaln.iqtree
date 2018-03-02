@@ -1,0 +1,222 @@
+IQ-TREE 1.5.5 built Jun  2 2017
+
+Input file name: Table_S2_indel_matrix.fasaln
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 534462
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+http://dx.doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+http://dx.doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 21 sequences with 536 morphological sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of distinct site patterns: 299
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: ORDERED+FQ+ASC+R2
+
+List of models sorted by BIC scores: 
+
+Model             LogL          AIC      w-AIC      AICc     w-AICc       BIC      w-BIC
+ORDERED+FQ+ASC+R2  -5950.4282  11982.8564 + 0.8809  11989.8280 + 0.9059  12158.5059 + 0.9981
+ORDERED+FQ+ASC+R3  -5950.4296  11986.8592 + 0.1191  11994.5502 + 0.0854  12171.0769 - 0.0019
+ORDERED+FQ+ASC+G4  -5987.0554  12054.1109 - 0.0000  12060.7371 - 0.0000  12225.4762 - 0.0000
+ORDERED+FQ+R2    -6009.6205  12101.2411 - 0.0000  12108.2127 - 0.0000  12276.8906 - 0.0000
+ORDERED+FQ+R3    -6009.6175  12105.2350 - 0.0000  12112.9260 - 0.0000  12289.4527 - 0.0000
+ORDERED+FQ+ASC   -6059.5653  12197.1305 - 0.0000  12203.4208 - 0.0000  12364.2117 - 0.0000
+ORDERED+FQ+G4    -6056.4346  12192.8692 - 0.0000  12199.4954 - 0.0000  12364.2345 - 0.0000
+ORDERED+FQ       -6096.6999  12271.3999 - 0.0000  12277.6902 - 0.0000  12438.4811 - 0.0000
+MK+FQ+ASC+R2     -6948.9250  13979.8500 - 0.0000  13986.8217 - 0.0000  14155.4995 - 0.0000
+MK+FQ+ASC+G4     -6955.3611  13990.7221 - 0.0000  13997.3484 - 0.0000  14162.0875 - 0.0000
+MK+FQ+ASC+R3     -6948.7793  13983.5586 - 0.0000  13991.2496 - 0.0000  14167.7763 - 0.0000
+MK+FQ+R2         -7005.4228  14092.8455 - 0.0000  14099.8172 - 0.0000  14268.4950 - 0.0000
+MK+FQ+R3         -7005.4218  14096.8435 - 0.0000  14104.5346 - 0.0000  14281.0613 - 0.0000
+MK+FQ+ASC        -7031.4742  14140.9483 - 0.0000  14147.2387 - 0.0000  14308.0296 - 0.0000
+MK+FQ+G4         -7029.1890  14138.3779 - 0.0000  14145.0042 - 0.0000  14309.7433 - 0.0000
+MK+FQ            -7059.1113  14196.2227 - 0.0000  14202.5130 - 0.0000  14363.3039 - 0.0000
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: ORDERED+FQ+ASC+R2
+
+Rate parameter R:
+
+  0-1: 1.0000
+  0-2: 0.0000
+  0-3: 0.0000
+  1-2: 1.0000
+  1-3: 0.0000
+  2-3: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  0   -0.6667    0.6667         0         0
+  1    0.6667    -1.333    0.6667         0
+  2         0    0.6667    -1.333    0.6667
+  3         0         0    0.6667   -0.6667
+
+Model of rate heterogeneity: FreeRate with 2 categories
+Site proportion and rates:  (0.842,0.5744) (0.158,3.269)
+
+ Category  Relative_rate  Proportion
+  1         0.5744         0.842
+  2         3.269          0.158
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -6038.4012 (s.e. 130.0606)
+Unconstrained log-likelihood (without tree): -2845.7288
+Number of free parameters (#branches + #model parameters): 41
+Akaike information criterion (AIC) score: 12158.8024
+Corrected Akaike information criterion (AICc) score: 12165.7741
+Bayesian information criterion (BIC) score: 12334.4519
+
+Total tree length (sum of branch lengths): 3.9289
+Sum of internal branch lengths: 0.3865 (9.8378% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0019) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'REF' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++-----------------------------------------------------------REF
+|
+|                             +------U02
+|                          +--| (43)
+|                          |  |  +-------U06
+|                          |  +--| (59)
+|                          |     +-----U07
+|                       +--| (28)
+|                       |  +-------L15
+|                    +--| (62)
+|                    |  |     +-----U03
+|                    |  |  +--| (54)
+|                    |  |  |  +----L12
+|                    |  +--| (51)
+|                    |     |  +-------L11
+|                    |     +**| (23)
+|                    |        +------L16
+|                 +--| (40)
+|                 |  +-------U08
+|              +--| (23)
+|              |  +-----------U04
+|           +--| (46)
+|           |  |     +----L09
+|           |  |  +--| (56)
+|           |  |  |  +------L10
+|           |  +--| (91)
+|           |     +------S19
+|        +--| (66)
+|        |  |  +-----L13
+|        |  +--| (86)
+|        |     |     +--L17
+|        |     |  +--| (71)
+|        |     |  |  +----S18
+|        |     +--| (63)
+|        |        +-------S20
+|     +--| (65)
+|     |  +-----U05
++-----| (43)
+|     +----S21
+|
++--L14
+
+Tree in newick format:
+
+(REF:1.0869619830,(((((((((U02:0.1292911224,(U06:0.1466382195,U07:0.1195805029)59:0.027017)43:0.019136,L15:0.1459883873)28:0.006216,((U03:0.1212915950,L12:0.1030961857)54:0.026605,(L11:0.1493810575,L16:0.1295606676)23:0.000002)51:0.018772)62:0.021913,U08:0.1515606425)40:0.005002,U04:0.2234318438)23:0.002324,((L09:0.0964303370,L10:0.1286807474)56:0.017047,S19:0.1281106691)91:0.034468)46:0.007339,(L13:0.1245663690,((L17:0.0564926091,S18:0.1030618543)71:0.014641,S20:0.1594219934)63:0.010512)86:0.023486)66:0.034069,U05:0.1197064557)65:0.007099,S21:0.0968157488)43:0.110866,L14:0.0222713398);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Robinson-Foulds distance between ML tree and consensus tree: -1
+
+Branches with bootstrap support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++**L09
+|
++**L10
+|
+|  +**S19
++**| (56)
+   |              +**L17
+   |           +**| (71)
+   |           |  +**S18
+   |        +**| (63)
+   |        |  +**S20
+   |     +**| (86)
+   |     |  +**L13
+   |  +**| (46)
+   |  |  |  +**U05
+   |  |  +**| (66)
+   |  |     |     +**L14
+   |  |     |  +**| (43)
+   |  |     |  |  +**REF
+   |  |     +**| (65)
+   |  |        +**S21
+   +**| (91)
+      |  +**U04
+      +**| (23)
+         |  +**U08
+         +**| (40)
+            |        +**L11
+            |     +**| (23)
+            |     |  +**L16
+            |  +**| (51)
+            |  |  |  +**L12
+            |  |  +**| (54)
+            |  |     +**U03
+            +**| (62)
+               |        +**U07
+               |     +**| (59)
+               |     |  +**U06
+               |  +**| (43)
+               |  |  +**U02
+               +**| (28)
+                  +**L15
+
+
+Consensus tree in newick format: 
+
+(L09:-1.0000000000,L10:-1.0000000000,(S19:-1.0000000000,(((((L17:-1.0000000000,S18:-1.0000000000)71:-1.0000000000,S20:-1.0000000000)63:-1.0000000000,L13:-1.0000000000)86:-1.0000000000,(U05:-1.0000000000,((L14:-1.0000000000,REF:-1.0000000000)43:-1.0000000000,S21:-1.0000000000)65:-1.0000000000)66:-1.0000000000)46:-1.0000000000,(U04:-1.0000000000,(U08:-1.0000000000,(((L11:-1.0000000000,L16:-1.0000000000)23:-1.0000000000,(L12:-1.0000000000,U03:-1.0000000000)54:-1.0000000000)51:-1.0000000000,(((U07:-1.0000000000,U06:-1.0000000000)59:-1.0000000000,U02:-1.0000000000)43:-1.0000000000,L15:-1.0000000000)28:-1.0000000000)62:-1.0000000000)40:-1.0000000000)23:-1.0000000000)91:-1.0000000000)56:-1.0000000000);
+
+TIME STAMP
+----------
+
+Date and time: Thu Feb  1 12:13:50 2018
+Total CPU time used: 5.169308 seconds (0h:0m:5s)
+Total wall-clock time used: 2.631842136 seconds (0h:0m:2s)
+
