@@ -1,0 +1,22 @@
+m02
+esl-sfetch -c 35187..39176 ../genomes/ATCC42720.fasta scaffold_12
+esl-sfetch -c 7795..11786 ../genomes/L10B.fasta scaffold_52
+esl-sfetch -c 123498..127488 ../genomes/L11G.fasta scaffold_27
+esl-sfetch -c 158476..162467 ../genomes/L1B.fasta scaffold_27
+esl-sfetch -c 43177..47168 ../genomes/L3B.fasta scaffold_51
+esl-sfetch -c 35190..39181 ../genomes/L3D.fasta scaffold_8
+esl-sfetch -c 53857..57848 ../genomes/L4C.fasta scaffold_22
+esl-sfetch -c 80115..84106 ../genomes/L4E.fasta scaffold_19
+esl-sfetch -c 25829..29821 ../genomes/L4G.fasta scaffold_38
+esl-sfetch -c 12515..16506 ../genomes/L7C.fasta scaffold_34
+esl-sfetch -c 43170..47161 ../genomes/S1E.fasta scaffold_26
+esl-sfetch -c 253500..257491 ../genomes/S3B.fasta scaffold_13
+esl-sfetch -c 233646..237637 ../genomes/S4H.fasta scaffold_17
+esl-sfetch -c 110301..114292 ../genomes/S8A.fasta scaffold_5
+esl-sfetch -c 425018..429010 ../genomes/U10A.fasta scaffold_7
+esl-sfetch -c 80116..84107 ../genomes/U10D.fasta scaffold_44
+esl-sfetch -c 354409..358400 ../genomes/U2E.fasta scaffold_7
+esl-sfetch -c 53917..57908 ../genomes/U3B.fasta scaffold_43
+esl-sfetch -c 7816..11808 ../genomes/U3E.fasta scaffold_14
+esl-sfetch -c 7795..11786 ../genomes/U3G.fasta scaffold_74
+esl-sfetch -c 123440..127431 ../genomes/U5C.fasta scaffold_5
