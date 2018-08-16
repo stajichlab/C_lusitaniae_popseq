@@ -1,0 +1,189 @@
+IQ-TREE 1.6.3 built Mar 22 2018
+
+Input file name: SNP_tree/C_lusitaniae.genotypes_all_and_out.selected.SNPONLY.lungonly_curated_subset.fasaln
+Type of analysis: tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 589269
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 22 sequences with 338 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 156
+Number of distinct site patterns: 215
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+ASC
+
+Rate parameter R:
+
+  A-C: 0.8703
+  A-G: 2.4163
+  A-T: 1.5232
+  C-G: 0.4207
+  C-T: 2.6043
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1975
+  pi(C) = 0.2913
+  pi(G) = 0.3206
+  pi(T) = 0.1906
+
+Rate matrix Q:
+
+  A    -1.304    0.2508    0.7663    0.2873
+  C    0.1701   -0.7946    0.1334    0.4911
+  G    0.4721    0.1212   -0.7819    0.1886
+  T    0.2976    0.7504    0.3172    -1.365
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2719.4145 (s.e. 101.2658)
+Unconstrained log-likelihood (without tree): -1760.1530
+Number of free parameters (#branches + #model parameters): 49
+Akaike information criterion (AIC) score: 5536.8289
+Corrected Akaike information criterion (AICc) score: 5553.8428
+Bayesian information criterion (BIC) score: 5724.1582
+
+Total tree length (sum of branch lengths): 0.8205
+Sum of internal branch lengths: 0.2859 (34.8500% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0030) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'A15.L4G' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++---A15.L4G
+|
+|               +----A11.L11G
+|            +**| (72)
+|            |  +---A12.L10B
+|         +--| (60)
+|         |  +--A16.L7C
+|      +--| (73)
+|      |  +--A3.U3G
+|  +---| (90)
+|  |   |                                  +----A9.L3D
+|  |   |                               +--| (66)
+|  |   |                               |  +-------------------A19.S3B
+|  |   |                +--------------| (100)
+|  |   |                |              +-------------A10.L4C
+|  |   |            +---| (100)
+|  |   |            |   |              +-------------A21.S8A
+|  |   |            |   |       +------| (99)
+|  |   |            |   |       |      |  +---A5.U10D
+|  |   |            |   |       |      +--| (95)
+|  |   |            |   |       |         +--------A14.L4E
+|  |   |            |   +-------| (100)
+|  |   |            |           |           +-----A18.S4H
+|  |   |            |           |       +---| (69)
+|  |   |            |           |       |   |   +---A17.L1B
+|  |   |            |           |       |   +---| (82)
+|  |   |            |           |       |       +------A20.S1E
+|  |   |            |           +-------| (100)
+|  |   |            |                   +----------A13.L3B
+|  |   |         +--| (100)
+|  |   |         |  |              +--CBS_6936
+|  |   |         |  |      +-------| (99)
+|  |   |         |  |      |       +---------REF
+|  |   |         |  +------| (99)
+|  |   |         |         +-----------------A4.U3B
+|  |   +---------| (100)
+|  |             +------------A8.U2E
++**| (69)
+|  |  +----A2.U10A
+|  +--| (32)
+|     +---A7.U3E
+|
++-------A6.U5C
+
+Tree in newick format:
+
+(A15.L4G:0.0125935822,(((((A11.L11G:0.0150750489,A12.L10B:0.0117546770)72:0.0017378808,A16.L7C:0.0115692051)60:0.0057440260,A3.U3G:0.0083101905)73:0.0058860599,(((((A9.L3D:0.0166118140,A19.S3B:0.0594032563)66:0.0051874649,A10.L4C:0.0430222839)100:0.0449609877,((A21.S8A:0.0426851764,(A5.U10D:0.0136438546,A14.L4E:0.0275514551)95:0.0074438860)99:0.0210139974,((A18.S4H:0.0197129241,(A17.L1B:0.0140352754,A20.S1E:0.0216298437)82:0.0124517714)69:0.0136131963,A13.L3B:0.0334684951)100:0.0248122536)100:0.0254792960)100:0.0118449902,((CBS_6936:0.0087312568,REF:0.0305941666)99:0.0251584302,A4.U3B:0.0534288901)99:0.0212748063)100:0.0082437725,A8.U2E:0.0386242282)100:0.0315604919)90:0.0121226547,(A2.U10A:0.0165771140,A7.U3E:0.0119591571)32:0.0048684651)69:0.0025286711,A6.U5C:0.0235521762);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -2719.598943
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--A15.L4G
+|
+|                 +---A11.L11G
+|              +--| (72)
+|              |  +--A12.L10B
+|           +--| (60)
+|           |  +--A16.L7C
+|        +--| (73)
+|        |  +--A3.U3G
+|     +--| (90)
+|     |  |                                 +----A9.L3D
+|     |  |                              +--| (66)
+|     |  |                              |  +------------------A19.S3B
+|     |  |                +-------------| (100)
+|     |  |                |             +------------A10.L4C
+|     |  |             +--| (100)
+|     |  |             |  |             +------------A21.S8A
+|     |  |             |  |       +-----| (99)
+|     |  |             |  |       |     |  +---A5.U10D
+|     |  |             |  |       |     +--| (95)
+|     |  |             |  |       |        +-------A14.L4E
+|     |  |             |  +-------| (100)
+|     |  |             |          |           +-----A18.S4H
+|     |  |             |          |       +---| (69)
+|     |  |             |          |       |   |   +---A17.L1B
+|     |  |             |          |       |   +---| (82)
+|     |  |             |          |       |       +------A20.S1E
+|     |  |             |          +-------| (100)
+|     |  |             |                  +---------A13.L3B
+|     |  |          +--| (100)
+|     |  |          |  |             +--CBS_6936
+|     |  |          |  |     +-------| (99)
+|     |  |          |  |     |       +--------REF
+|     |  |          |  +-----| (99)
+|     |  |          |        +----------------A4.U3B
+|     |  +----------| (100)
+|     |             +-----------A8.U2E
+|  +--| (61)
+|  |  +--A7.U3E
++--| (69)
+|  +----A2.U10A
+|
++------A6.U5C
+
+
+Consensus tree in newick format: 
+
+(A15.L4G:0.0122245530,((((((A11.L11G:0.0151503274,A12.L10B:0.0118125118)72:0.0017000793,A16.L7C:0.0116707619)60:0.0039274092,A3.U3G:0.0097277911)73:0.0038204643,(((((A9.L3D:0.0166866386,A19.S3B:0.0597563990)66:0.0052705255,A10.L4C:0.0431859142)100:0.0451183995,((A21.S8A:0.0430471115,(A5.U10D:0.0137823526,A14.L4E:0.0276487485)95:0.0074309612)99:0.0211771255,((A18.S4H:0.0199228309,(A17.L1B:0.0140272554,A20.S1E:0.0218476405)82:0.0124942617)69:0.0137194550,A13.L3B:0.0335385882)100:0.0250369715)100:0.0256454396)100:0.0119496358,((CBS_6936:0.0087725740,REF:0.0307604848)99:0.0253506424,A4.U3B:0.0536702045)99:0.0214860116)100:0.0082330696,A8.U2E:0.0390574643)100:0.0355727299)90:0.0110249451,A7.U3E:0.0102780316)61:0.0061386799,A2.U10A:0.0178303046)69:0.0039930124,A6.U5C:0.0233883141);
+
+TIME STAMP
+----------
+
+Date and time: Sun Jul 29 16:30:21 2018
+Total CPU time used: 56.310807 seconds (0h:0m:56s)
+Total wall-clock time used: 7.233669996 seconds (0h:0m:7s)
+
