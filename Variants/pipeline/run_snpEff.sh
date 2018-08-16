@@ -7,7 +7,7 @@ module load snpEff
 
 snpEffConfig=/bigdata/stajichlab/shared/projects/Candida/Candida_lusitaniae/lib/snpEff/snpEff.config
 GENOME=C_lusitaniae
-INVCF=../C_lusitaniae.genotypes_A+ctl.selected.INDELONLY.fixed.vcf
-OUTVCF=C_lusitaniae.genotypes_A+ctl.selected.INDELONLY.fixed.snpEff.vcf
+INVCF=../C_lusitaniae.genotypes_all.selected.SNPONLY.lungonly.vcf
+OUTVCF=C_lusitaniae.genotypes_all.selected.SNPONLY.lungonly.snpEff.vcf
 
 java -Xmx16g -jar $SNPEFFJAR eff -v -c $snpEffConfig $GENOME $INVCF > $OUTVCF

@@ -43,7 +43,7 @@ SAMPLE=$(sed -n ${LINE}p $SAMPLEFILE | awk '{print $1}')
 hostname
 echo "SAMPLE=$SAMPLE"
 
-OUTDIR=Variants_A_forced
+OUTDIR=Variants
 b=$(basename $GENOME .fasta)
 
 N=$BAMDIR/$SAMPLE.realign.bam
@@ -53,7 +53,6 @@ $GATKDIR/gatk-launch --javaOptions -Xmx${MEM} \
   HaplotypeCaller \
   -ERC GVCF \
   -ploidy 1 \
-  --disableOptimizations \
   -I $N -R $GENOMEIDX \
   -O $OUTDIR/$SAMPLE.g.vcf #-nct $CPU
 fi

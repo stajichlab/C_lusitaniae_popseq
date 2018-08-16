@@ -11,7 +11,7 @@ module load gatk/3.6
 module unload java
 module load java/8
 OUTDIR=.
-G=A.bcftools #base name
+G=all #base name
 BASE=/bigdata/stajichlab/shared/projects/Candida/Clus_reseq #base directory
 GENOME=$BASE/genome/candida_lusitaniae_ATCC42720_w_CBS_6936_MT.fasta #reference genome path
 
